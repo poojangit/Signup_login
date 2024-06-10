@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+}
+.borderBox {
+    border: 2px solid rgb(228, 226, 224);
+    display: flex;
+   padding: 20px;
+    border-radius: 10px;
+    
+}
+.outerBox {
+    padding: 40px;
+    /* max-width: 400px; */
+    background-color: #fff;
+}
+.borderBox h1{
+    color: orange;
+    margin-bottom: 10px;
+}
+.borderBox h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.inputField {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.inputField input {
+    padding: 16px;
+    width: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    flex: 1 1 48%;
+}
+
+.inputField .rule {
+    font-size: 10px;
+    font-weight: bold;
+    color: #383838;
+    margin: 0;
+    flex: 1 1 100%;
+}
+
+.footerField{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.footerField a {
+    text-decoration: none;
+    color: #3640b6;
+    padding: 30px 20px 30px 4px;
+    font-size: smaller;
+    font-weight: 600;
+
+}
+.footerField button {
+    background-color: #313991;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 5px 10px 5px 10px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px 0px;
+}
+.image p {
+    margin: 0;
+    gap: 0;
+}
+.image img{
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.bottomBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.dropdown {
+    /* padding-left: 20px; */
+    color: #292929;
+    font-size: small;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+    /* padding-right: 20px; */
+}
+.link a {
+    text-decoration: none;
+    color: #292929;
+    font-size: small;
+}
+
